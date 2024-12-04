@@ -52,17 +52,17 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.png
+favicon: /img/icon_01.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /img/icon_01.png
   effect: false
 
 # Disable all banner images
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img:
+default_top_img: /img/minecraft_bg_02.jpg
 
 # The banner image of index page
 index_img:
@@ -84,14 +84,14 @@ category_img:
 # The banner image of category page, you can set the banner image for each category
 # Format:
 #  - category name: xxxxx
-category_per_img:
+category_per_img: 
 
 # The background image of footer
-footer_img: false
+footer_img:
 
 # Website Background
 # Can set it to color or image url
-background:
+background: /img/minecraft_bg_02.jpg
 
 cover:
   # Disable the cover or not
@@ -256,10 +256,10 @@ noticeOutdate:
 footer:
   owner:
     enable: true
-    since: 2019
+    since: 2024
   custom_text:
   # Copyright of theme and framework
-  copyright: true
+  copyright: false
 
 # --------------------------------------
 # Aside Settings
@@ -284,7 +284,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/ianian4302
   card_announcement:
     enable: true
     content: This is my Blog
@@ -735,8 +735,8 @@ site_verification:
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 
-# theme_color:
-#   enable: true
+theme_color:
+  enable: true
 #   main: "#49B1F5"
 #   paginator: "#00c4b6"
 #   button_hover: "#FF7242"
@@ -748,7 +748,7 @@ site_verification:
 #   code_background: "rgba(27, 31, 35, .05)"
 #   toc_color: "#00c4b6"
 #   blockquote_padding_color: "#49b1f5"
-#   blockquote_background_color: "#49b1f5"
+  blockquote_background_color: "#dde7ed"
 #   scrollbar_color: "#49b1f5"
 #   meta_theme_color_light: "ffffff"
 #   meta_theme_color_dark: "#0d0d0d"
